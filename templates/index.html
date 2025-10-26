@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Blog</title></head>
+<body>
+    <h1>All Posts</h1>
+    <a href="/create-post">Create New Post</a>
+    <hr>
+
+    {% for post in posts %}
+    <h2><a href="/post/{{ post['_id'] }}">{{ post['title'] }}</a></h2>
+    <p>{{ post['content'][:20] }}...</p>
+    <!-- Edit link -->
+    <a href="/update-post/{{ post['_id'] }}">Edit</a>
+    <!-- Delete link -->
+     <a href="/delete-post/{{ post['_id'] }}">Delete</a>
+    <hr>
+    <hr>
+{% endfor %}
+
+</body>
+</html>
