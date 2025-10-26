@@ -8,7 +8,7 @@ To learn the basic concepts and workflow of **FastAPI** and **MongoDB**.
 
 ## Security
 - Proper user authentication is not implemented yet but I plan to add it after learning how to build an authentication system using **FastAPI**.  
-- Only a specific user will be able to manage posts (Create, Update, and Delete).  
+- Only a specific user will be able to manage posts (Create, Update and Delete).  
 - Visitors will only be able to read and comment on posts.
 
 ## Used Technologies
@@ -18,5 +18,6 @@ To learn the basic concepts and workflow of **FastAPI** and **MongoDB**.
 - **Database:** MongoDB  
 
 ## Clone this project
-```bash
-git clone https://github.com/emon51/Task-Nest-Project-Django.git
+```
+git clone https://github.com/emon51/Blogging-Project-FastAPI.git
+```
